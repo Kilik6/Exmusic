@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/sea"
+
     tools:context=".MainActivity">
 
         <ListView
@@ -51,6 +53,7 @@
             app:layout_constraintHorizontal_bias="0.044"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
             app:layout_constraintVertical_bias="0.098" />
 
         <ImageView
@@ -63,6 +66,7 @@
             app:layout_constraintHorizontal_bias="0.197"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
             app:layout_constraintVertical_bias="0.1" />
 
         <ImageView
@@ -75,6 +79,7 @@
             app:layout_constraintHorizontal_bias="0.368"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
             app:layout_constraintVertical_bias="0.098" />
 
         <ImageView
@@ -87,6 +92,7 @@
             app:layout_constraintHorizontal_bias="0.536"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
             app:layout_constraintVertical_bias="0.095" />
 
         <ImageView
@@ -99,6 +105,7 @@
             app:layout_constraintHorizontal_bias="0.702"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
             app:layout_constraintVertical_bias="0.095" />
 
         <ImageView
@@ -111,6 +118,7 @@
             app:layout_constraintHorizontal_bias="0.899"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
             app:layout_constraintVertical_bias="0.099" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
