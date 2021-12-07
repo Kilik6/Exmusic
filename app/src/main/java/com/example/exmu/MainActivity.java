@@ -1,24 +1,22 @@
 package com.example.exmu;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.Manifest;
-import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
-import android.os.Build;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.io.IOException;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView imgFront, imgStop, imgPlay, imgPause, imgNext, imgEnd;
+    private ImageView imgStop;
+    private ImageView imgPlay;
+    private ImageView imgPause;
+    private ImageView imgNext;
+    private ImageView imgEnd;
     private ListView lstMusic;
     private TextView txtMusic;
     private MediaPlayer mediaplayer;
@@ -34,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imgFront = (ImageView) findViewById(R.id.imgFront);
+        ImageView imgFront = (ImageView) findViewById(R.id.imgFront);
         imgStop = (ImageView) findViewById(R.id.imgStop);
         imgPlay = (ImageView) findViewById(R.id.imgPlay);
         imgPause = (ImageView) findViewById(R.id.imgPause);
